@@ -4,12 +4,14 @@ import StoryDescriptionList from '@/heros/StoryHero/StoryDescriptionList'
 import { Story } from '@/payload-types'
 import { BookmarkPlus } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
+import ReadNowButton from './ReadNowButton'
 
 type StoryHeroProps = {
   item: Story
 }
 function StoryHero({ item }: StoryHeroProps) {
-  const { title, banner, publishedAt, categories } = item
+  const { title, banner, publishedAt, categories, slug } = item
   return (
     <div className="relative grid grid-cols-1 md:grid-cols-[minmax(200px,400px)_auto] gap-4">
       <div className="space-y-4">
@@ -27,9 +29,7 @@ function StoryHero({ item }: StoryHeroProps) {
           />
         )}
         <div className="grid grid-cols-[1fr_auto] gap-4">
-          <Button size="large" className="uppercase col-span-full">
-            Read now
-          </Button>
+          <ReadNowButton story={item} className="uppercase col-span-full"/>
           <Button appearance="outline" size="large" className="">
             Newest chapter
           </Button>
