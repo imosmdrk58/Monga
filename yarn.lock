@@ -846,7 +846,7 @@
     "@emotion/weak-memoize" "^0.4.0"
     stylis "4.2.0"
 
-"@emotion/css@^11.10.5":
+"@emotion/css@^11.10.5", "@emotion/css@^11.13.5":
   version "11.13.5"
   resolved "https://registry.yarnpkg.com/@emotion/css/-/css-11.13.5.tgz#db2d3be6780293640c082848e728a50544b9dfa4"
   integrity sha512-wQdD0Xhkn3Qy2VNcIzbLP9MR8TafI0MJb7BEAXKp+w4+XqErksWR4OXomuDzPsN4InLdGhVe6EYcn2ZIUCpB8w==
@@ -867,7 +867,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.9.0.tgz#745969d649977776b43fc7648c556aaa462b4102"
   integrity sha512-30FAj7/EoJ5mwVPOWhAyCX+FPfMDrVecJAM+Iw9NRoSl4BBAQeqj4cApHHUXOVvIPgLVDsCFoz/hGD+5QQD1GQ==
 
-"@emotion/react@^11.8.1":
+"@emotion/react@^11.14.0", "@emotion/react@^11.8.1":
   version "11.14.0"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.14.0.tgz#cfaae35ebc67dd9ef4ea2e9acc6cd29e157dd05d"
   integrity sha512-O000MLDBDdk/EohJPFUqvnp4qnHeYkVP5B0xEG0D/L7cOKP9kefu2DXn8dj74cQfsEzUqh+sr1RzFqiL1o+PpA==
@@ -2009,6 +2009,16 @@
     ts-essentials "10.0.3"
     tsx "4.19.2"
 
+"@payloadcms/graphql@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@payloadcms/graphql/-/graphql-3.20.0.tgz#b08d2a59c2dca3516652413b0ff12a38cecf9711"
+  integrity sha512-tX02oa9V5Uoe2ra1aK4zX9CGQV7iNxoDZorbBbj2GZD7H6ADQHnlevpy1edMmR1Jv2Hf4TB92awXfE6PkdNQew==
+  dependencies:
+    graphql-scalars "1.22.2"
+    pluralize "8.0.0"
+    ts-essentials "10.0.3"
+    tsx "4.19.2"
+
 "@payloadcms/live-preview-react@latest":
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/@payloadcms/live-preview-react/-/live-preview-react-3.17.1.tgz#087db8888ece6de7e4a17da1fc0376bbedc7bf74"
@@ -2021,7 +2031,29 @@
   resolved "https://registry.yarnpkg.com/@payloadcms/live-preview/-/live-preview-3.17.1.tgz#2c9f26cf8c2c1163571d49d7a3f8a7d659aedf4d"
   integrity sha512-JdhhhIYgwdGdS8+mU+xoe6zl1CloBFM6Tz7kxsAcSem6EDtJJ6K+x9qNNbc7c/rWRaDlleCox9v/fncun7BD3A==
 
-"@payloadcms/next@3.17.1", "@payloadcms/next@latest":
+"@payloadcms/next@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@payloadcms/next/-/next-3.20.0.tgz#8dc5eb678a7611b29f228d4e34b963f29c54c346"
+  integrity sha512-xAOUxKuZVu49YOhysCxSss9Ku2tv5WW1rT/cwtaQaqVZ0DPL7jLS706wm71enJs36hGe0uDMGlSE8yB+dAludQ==
+  dependencies:
+    "@dnd-kit/core" "6.0.8"
+    "@payloadcms/graphql" "3.20.0"
+    "@payloadcms/translations" "3.20.0"
+    "@payloadcms/ui" "3.20.0"
+    busboy "^1.6.0"
+    dequal "2.0.3"
+    file-type "19.3.0"
+    graphql-http "^1.22.0"
+    graphql-playground-html "1.6.30"
+    http-status "2.1.0"
+    path-to-regexp "6.3.0"
+    qs-esm "7.0.2"
+    react-diff-viewer-continued "4.0.4"
+    sass "1.77.4"
+    sonner "^1.7.0"
+    uuid "10.0.0"
+
+"@payloadcms/next@latest":
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/@payloadcms/next/-/next-3.17.1.tgz#ea5e4d0c22fb7754e4471f62100b6ce4d1887591"
   integrity sha512-syOwdQOYTEAO18Jh7k/HAb5Jl3EbUTlYESyrQwzBbwAK6YiAcb5qfm36IpAZhzHb5DOrgQeAgjcCzype6d/Sxg==
@@ -2075,12 +2107,12 @@
   integrity sha512-raK/1ckLHAH7+VoixDUi9Tv6bskQ+F/iXy72OggcofrzfQSbs7vc5KyV5Sg1EjARa727eXkn8vhecLtnP0hLRA==
 
 "@payloadcms/plugin-search@latest":
-  version "3.17.1"
-  resolved "https://registry.yarnpkg.com/@payloadcms/plugin-search/-/plugin-search-3.17.1.tgz#6befb75514a5792cb7e40a27bf99e66ee7ea39d1"
-  integrity sha512-i9Y67LQ0KzWWMSc+A8BTl39ysuf2XjLkXwCqxrcc2M84oN6g0fWD7Nzolvcp3nWVd1Nt8G+XfZgkRoN7G0qN4w==
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@payloadcms/plugin-search/-/plugin-search-3.20.0.tgz#cab61b584ae3d1046563b0387a08c54722f9fac4"
+  integrity sha512-dkhPXPYMVEqTZYV+LqNOSYmKFaKYIKvfm0Imuf5iBQURDyUWar9Qx934SLDe/U4hmD4O6L+5+rlF6DCXlv2j/A==
   dependencies:
-    "@payloadcms/next" "3.17.1"
-    "@payloadcms/ui" "3.17.1"
+    "@payloadcms/next" "3.20.0"
+    "@payloadcms/ui" "3.20.0"
 
 "@payloadcms/plugin-seo@latest":
   version "3.17.1"
@@ -2127,6 +2159,13 @@
   dependencies:
     date-fns "4.1.0"
 
+"@payloadcms/translations@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@payloadcms/translations/-/translations-3.20.0.tgz#74d2ffa67c6e41f98f8d9da0b35daa2d6833f235"
+  integrity sha512-pZVcqysyZGH02gjtaRwNVusHgAwO1sRBKCHQAft7w9KFl7ZoCZAm+r3+SUhAE8Kp+fj9gHArtGsIfr/Yqn/zfA==
+  dependencies:
+    date-fns "4.1.0"
+
 "@payloadcms/ui@3.17.1", "@payloadcms/ui@latest":
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/@payloadcms/ui/-/ui-3.17.1.tgz#6900a2e7e3e745d1df2e9a18e8b1890579ad741b"
@@ -2151,6 +2190,34 @@
     react-select "5.9.0"
     scheduler "0.25.0"
     sonner "^1.7.0"
+    ts-essentials "10.0.3"
+    use-context-selector "2.0.0"
+    uuid "10.0.0"
+
+"@payloadcms/ui@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@payloadcms/ui/-/ui-3.20.0.tgz#24c3662f67a4bef8bc23de05b3cc93ece2ef843a"
+  integrity sha512-ZCXPVOlVmNzPrVI7qFjUe7QMrmVoO1QSP4940Z30wJQpIpJW6t0W+HgjUfuDHEZ9xWRPCOniO101r50wLzIdNQ==
+  dependencies:
+    "@dnd-kit/core" "6.0.8"
+    "@dnd-kit/sortable" "7.0.2"
+    "@faceless-ui/modal" "3.0.0-beta.2"
+    "@faceless-ui/scroll-info" "2.0.0-beta.0"
+    "@faceless-ui/window-info" "3.0.0-beta.0"
+    "@monaco-editor/react" "4.6.0"
+    "@payloadcms/translations" "3.20.0"
+    body-scroll-lock "4.0.0-beta.0"
+    bson-objectid "2.0.4"
+    date-fns "4.1.0"
+    dequal "2.0.3"
+    md5 "2.3.0"
+    object-to-formdata "4.5.1"
+    qs-esm "7.0.2"
+    react-datepicker "7.6.0"
+    react-image-crop "10.1.8"
+    react-select "5.9.0"
+    scheduler "0.25.0"
+    sonner "^1.7.2"
     ts-essentials "10.0.3"
     use-context-selector "2.0.0"
     uuid "10.0.0"
@@ -4931,7 +4998,7 @@ class-variance-authority@^0.7.0:
   dependencies:
     clsx "^2.1.1"
 
-classnames@^2.3.1:
+classnames@^2.3.1, classnames@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
@@ -5259,7 +5326,7 @@ devlop@^1.0.0, devlop@^1.1.0:
   dependencies:
     dequal "^2.0.0"
 
-diff@^5.1.0:
+diff@^5.1.0, diff@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-5.2.0.tgz#26ded047cd1179b78b9537d5ef725503ce1ae531"
   integrity sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==
@@ -6311,6 +6378,11 @@ http-status@1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.6.2.tgz#6dc05188a9856d67d96e48e8b4fd645c719ce82a"
   integrity sha512-oUExvfNckrpTpDazph7kNG8sQi5au3BeTo0idaZFXEhTaJKu7GNJCLHI0rYY2wljm548MSTM+Ljj/c6anqu2zQ==
+
+http-status@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/http-status/-/http-status-2.1.0.tgz#c9bd8ed0416e03199533e7dcbb2711207880b094"
+  integrity sha512-O5kPr7AW7wYd/BBiOezTwnVAnmSNFY+J7hlZD2X5IOxVBetjcHAiTXhzj0gMrnojQlwy+UT1/Y3H3vJ3UlmvLA==
 
 ieee754@^1.1.13, ieee754@^1.1.4, ieee754@^1.2.1:
   version "1.2.1"
@@ -7673,7 +7745,7 @@ path-to-regexp@6.2.1:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.2.1.tgz#d54934d6798eb9e5ef14e7af7962c945906918e5"
   integrity sha512-JLyh7xT1kizaEvcaXOQwOc2/Yhw6KZOvPf1S8401UyLk86CU79LN3vl7ztXGm/pZ+YjoyAJ4rxmHwbkBXJX+yw==
 
-path-to-regexp@^6.2.1:
+path-to-regexp@6.3.0, path-to-regexp@^6.2.1:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.3.0.tgz#2b6a26a337737a8e1416f9272ed0766b1c0389f4"
   integrity sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==
@@ -7683,7 +7755,7 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-payload-admin-bar@^1.0.6:
+payload-admin-bar@latest:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/payload-admin-bar/-/payload-admin-bar-1.0.6.tgz#ca25e369a4f319c3d61ff3db4021c1c2fd9d0148"
   integrity sha512-hpQdOiPq4LpWTkbuAnvxDf5wQ2ysMp9kQt+X2U+FfvBwD1U6qoxJfmUymG1OjLlaZzCZ93FlOdTl4u4Z0/m/SA==
@@ -8204,6 +8276,17 @@ react-diff-viewer-continued@3.2.6:
     diff "^5.1.0"
     memoize-one "^6.0.0"
     prop-types "^15.8.1"
+
+react-diff-viewer-continued@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/react-diff-viewer-continued/-/react-diff-viewer-continued-4.0.4.tgz#7ae8a43316747918ed903459822e156fcd27aa9d"
+  integrity sha512-AQ+LST2L9+sjr0h/nkeZyoUzUcajen3qPkymSuFm8KhObK1aincaZFg/auIwOGc0fAGhY4TgDBq0qFH+9WhLsA==
+  dependencies:
+    "@emotion/css" "^11.13.5"
+    "@emotion/react" "^11.14.0"
+    classnames "^2.5.1"
+    diff "^5.2.0"
+    memoize-one "^6.0.0"
 
 react-dom@18.2.0:
   version "18.2.0"
