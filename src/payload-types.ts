@@ -781,10 +781,19 @@ export interface Search {
   id: number;
   title?: string | null;
   priority?: number | null;
-  doc: {
-    relationTo: 'posts';
-    value: number | Post;
-  };
+  doc:
+    | {
+        relationTo: 'posts';
+        value: number | Post;
+      }
+    | {
+        relationTo: 'stories';
+        value: number | Story;
+      }
+    | {
+        relationTo: 'chapters';
+        value: number | Chapter;
+      };
   slug?: string | null;
   meta?: {
     title?: string | null;
