@@ -54,9 +54,6 @@ export default async function HomePage() {
                       height={800}
                       alt={story.banner.alt ?? story.banner.filename ?? story.title}
                       className="aspect-[5:8] h-[192px] rounded-sm"
-                      objectFit="cover"
-                      objectPosition="center"
-                      layout="responsive"
                       // placeholder="blur"
                     />
                   ) : (
