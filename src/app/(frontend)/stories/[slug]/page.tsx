@@ -55,7 +55,6 @@ export default async function Story({ params: paramsPromise }: Args) {
     <article className="pt-16 pb-16">
       {/* Allows redirects for valid pages too */}
       <PayloadRedirects disableNotFound url={url} />
-
       {draft && <LivePreviewListener />}
       <div className="container mx-auto space-y-12">
         <StoryHero item={story} />

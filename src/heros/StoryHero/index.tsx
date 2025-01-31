@@ -22,14 +22,11 @@ function StoryHero({ item }: StoryHeroProps) {
             height={800}
             alt={banner.alt ?? banner.filename ?? title}
             className="aspect-[5:8] h-[192px] rounded-md"
-            objectFit="cover"
-            objectPosition="center"
-            layout="responsive"
             // placeholder="blur"
           />
         )}
         <div className="grid grid-cols-[1fr_auto] gap-4">
-          <ReadNowButton story={item} className="uppercase col-span-full"/>
+          <ReadNowButton story={item} className="uppercase col-span-full" />
           <Button appearance="outline" size="large" className="">
             Newest chapter
           </Button>
